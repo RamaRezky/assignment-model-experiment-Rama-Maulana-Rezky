@@ -137,7 +137,7 @@ Untuk tahap berikutnya, saya akan mengumpulkan ulasan asli yang lebih banyak dan
 
 1. Clone repository ini, lalu siapkan virtual environment:
    - git clone https://github.com/RamaRezky/model-experiment-assignment-Rama-Maulana-Rezky.git
-   - cd assignment-model-experiment-rama
+   - cd model-experiment-assignment-Rama-Maulana-Rezky
    - python -m venv venv
    - source venv/Scripts/activate (Git Bash di Windows), venv\Scripts\activate (Command Prompt), atau source venv/bin/activate (macOS/Linux)
    - pip install -r requirements.txt
