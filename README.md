@@ -141,7 +141,7 @@ Untuk tahap berikutnya, saya akan mengumpulkan ulasan asli yang lebih banyak dan
    - python -m venv venv
    - source venv/Scripts/activate (Git Bash di Windows), venv\Scripts\activate (Command Prompt), atau source venv/bin/activate (macOS/Linux)
    - pip install -r requirements.txt
-2. Buat API key di [Google AI Studio](https://aistudio.google.com/apikey). Setelah itu buat file bernama .env di folder utama project (sejajar dengan README ini), isinya satu baris: GEMINI_API_KEY=isi_api_key_anda. File .env sudah dikecualikan lewat .gitignore, jadi tidak akan ikut ter-upload.
+2. Buat API key di [Google AI Studio](https://aistudio.google.com/apikey). Setelah itu buat file bernama .env di folder utama project (sejajar dengan README ini), isinya satu baris: GEMINI_API_KEY=isi_api_key_anda.
 3. Buka notebook/experiment_notebook.ipynb di VS Code atau Jupyter, pilih kernel dari virtual environment tadi, lalu klik Run All. Bagian Gemini hanya butuh sekitar 9 request, kira-kira 1 sampai 2 menit. Grafik perbandingan otomatis tersimpan di folder documentation.
 
 Kalau muncul error 429 RESOURCE_EXHAUSTED, berarti kuota free tier sedang habis. Tunggu sampai kuotanya reset, atau ganti nama model di cell 5.2.
